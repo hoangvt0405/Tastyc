@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.td-section{
+	position: relative
+}
+.td-section:before{
+	content: "";
+	width: 50px; height: 5px; background: #E2720D;
+	position: absolute; margin: auto; top: -5px
+}
+.td-section-long{
+	position: relative
+}
+.td-section-long:before{
+	content: "";
+	width: 100px; height: 5px; background: #E2720D;
+	position: absolute; margin: auto; top: -5px
+}
+
+.td-section-after:after{
+	content: "";
+	width: 40px; height: 5px; background: red;
+	position: absolute; left: 65%; top:50px
+}
+.img-100{ width: 100%; height: auto}
+.td-section-med{
+	position: relative
+}
+.td-section-med:before{
+	content: "";
+	width: 75px; height: 5px; background: #E2720D;
+	position: absolute; margin: auto; top: -5px
